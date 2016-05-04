@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    
+    <url>
+     <loc>https://foreachsam.github.io/book-util-wget/book/</loc>
+     <lastmod>2016-05-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+        
+    <url>
+     <loc>https://foreachsam.github.io/book-util-wget/book/content/referance/manual/</loc>
+     <lastmod>2016-05-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>https://foreachsam.github.io/book-util-wget/book/content/deb-package/</loc>
+     <lastmod>2016-05-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://foreachsam.github.io/book-util-wget/book/content/deb-package/wget/</loc>
+     <lastmod>2016-05-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>https://foreachsam.github.io/book-util-wget/book/content/command/wget/</loc>
+     <lastmod>2016-05-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+</urlset>
