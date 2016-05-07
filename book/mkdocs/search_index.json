@@ -134,6 +134,16 @@
             "location": "/content/command/wget/#wget_1",
             "text": "\u57f7\u884c  $ dpkg -S /usr/bin/wget  \u986f\u793a  wget: /usr/bin/wget  \u8868\u793a\u300c/usr/bin/wget\u300d\u662f\u5c6c\u65bc\u300c wget \u300d\u9019\u500b\u5957\u4ef6\u3002",
             "title": "\u67e5\u8a62 wget \u5c6c\u65bc\u90a3\u500b\u5957\u4ef6"
+        },
+        {
+            "location": "/content/usage/basic/",
+            "text": "\u57fa\u672c\u7528\u6cd5\n\n\n\u57f7\u884c\n\n\n$ wget https://www.gnu.org/software/wget/",
+            "title": "basic"
+        },
+        {
+            "location": "/content/usage/basic/#_1",
+            "text": "\u57f7\u884c  $ wget https://www.gnu.org/software/wget/",
+            "title": "\u57fa\u672c\u7528\u6cd5"
         }
     ]
 }
