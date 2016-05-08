@@ -137,13 +137,18 @@
         },
         {
             "location": "/content/usage/basic/",
-            "text": "\u57fa\u672c\u7528\u6cd5\n\n\n\u57f7\u884c\n\n\n$ wget https://www.gnu.org/software/wget/",
+            "text": "\u57fa\u672c\u7528\u6cd5\n\n\n\u57f7\u884c\n\n\n$ wget https://www.gnu.org/software/wget/\n\n\n\n\n\u66f4\u540d\n\n\n$ wget https://www.gnu.org/software/wget/ -O test.html",
             "title": "basic"
         },
         {
             "location": "/content/usage/basic/#_1",
             "text": "\u57f7\u884c  $ wget https://www.gnu.org/software/wget/",
             "title": "\u57fa\u672c\u7528\u6cd5"
+        },
+        {
+            "location": "/content/usage/basic/#_2",
+            "text": "$ wget https://www.gnu.org/software/wget/ -O test.html",
+            "title": "\u66f4\u540d"
         }
     ]
 }
