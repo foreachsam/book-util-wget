@@ -137,7 +137,7 @@
         },
         {
             "location": "/content/usage/basic/",
-            "text": "\u57fa\u672c\u7528\u6cd5\n\n\n\u57f7\u884c\n\n\n$ wget https://www.gnu.org/software/wget/\n\n\n\n\n\u66f4\u540d\n\n\n$ wget https://www.gnu.org/software/wget/ -O test.html",
+            "text": "\u57fa\u672c\u7528\u6cd5\n\n\n\u57f7\u884c\n\n\n$ wget https://www.gnu.org/software/wget/\n\n\n\n\n\u66f4\u540d\n\n\n\u57f7\u884c\n\n\n$ wget https://www.gnu.org/software/wget/ -O test.html\n\n\n\n\n\u652f\u63f4\u7e8c\u50b3\n\n\n\u57f7\u884c\n\n\n$ wget -c https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb",
             "title": "basic"
         },
         {
@@ -147,8 +147,13 @@
         },
         {
             "location": "/content/usage/basic/#_2",
-            "text": "$ wget https://www.gnu.org/software/wget/ -O test.html",
+            "text": "\u57f7\u884c  $ wget https://www.gnu.org/software/wget/ -O test.html",
             "title": "\u66f4\u540d"
+        },
+        {
+            "location": "/content/usage/basic/#_3",
+            "text": "\u57f7\u884c  $ wget -c https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb",
+            "title": "\u652f\u63f4\u7e8c\u50b3"
         }
     ]
 }
