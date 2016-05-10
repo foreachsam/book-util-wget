@@ -252,6 +252,12 @@
               </a>
             </li>
           
+            <li class="anchor">
+              <a title="列表下載" href="#_4">
+                列表下載
+              </a>
+            </li>
+          
         </ul>
       
     
@@ -299,6 +305,24 @@
 <h2 id="_3">支援續傳</h2>
 <p>執行</p>
 <pre class="code"><code class="language-sh">$ wget -c https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb</code></pre>
+
+
+<h2 id="_4">列表下載</h2>
+<p>產生一個「list.txt」，內容是放置要下載的檔案列表。</p>
+<p>執行</p>
+<pre class="code"><code class="language-sh">cat &gt; list.txt &lt;&lt;EOF
+http://releases.ubuntu.com/16.04/ubuntu-16.04-desktop-amd64.iso
+http://releases.ubuntu.com/16.04/ubuntu-16.04-server-amd64.iso
+http://cdimage.ubuntu.com/xubuntu/releases/16.04/release/xubuntu-16.04-desktop-amd64.iso
+http://cdimage.ubuntu.com/lubuntu/releases/16.04/release/lubuntu-16.04-desktop-amd64.iso
+http://cdimage.ubuntu.com/kubuntu/releases/16.04/release/kubuntu-16.04-desktop-amd64.iso
+http://cdimage.ubuntu.com/ubuntu-gnome/releases/16.04/release/ubuntu-gnome-16.04-desktop-amd64.iso
+http://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/ubuntu-mate-16.04-desktop-amd64.iso
+EOF</code></pre>
+
+
+<p>執行</p>
+<pre class="code"><code class="language-sh">$ wget -i list.txt</code></pre>
           <aside class="copyright" role="note">
             
               Copyright (c) foreachsam &ndash;

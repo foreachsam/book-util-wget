@@ -137,7 +137,7 @@
         },
         {
             "location": "/content/usage/basic/",
-            "text": "\u57fa\u672c\u7528\u6cd5\n\n\n\u57f7\u884c\n\n\n$ wget https://www.gnu.org/software/wget/\n\n\n\n\n\u66f4\u540d\n\n\n\u57f7\u884c\n\n\n$ wget https://www.gnu.org/software/wget/ -O test.html\n\n\n\n\n\u652f\u63f4\u7e8c\u50b3\n\n\n\u57f7\u884c\n\n\n$ wget -c https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb",
+            "text": "\u57fa\u672c\u7528\u6cd5\n\n\n\u57f7\u884c\n\n\n$ wget https://www.gnu.org/software/wget/\n\n\n\n\n\u66f4\u540d\n\n\n\u57f7\u884c\n\n\n$ wget https://www.gnu.org/software/wget/ -O test.html\n\n\n\n\n\u652f\u63f4\u7e8c\u50b3\n\n\n\u57f7\u884c\n\n\n$ wget -c https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb\n\n\n\n\n\u5217\u8868\u4e0b\u8f09\n\n\n\u7522\u751f\u4e00\u500b\u300clist.txt\u300d\uff0c\u5167\u5bb9\u662f\u653e\u7f6e\u8981\u4e0b\u8f09\u7684\u6a94\u6848\u5217\u8868\u3002\n\n\n\u57f7\u884c\n\n\ncat \n list.txt \nEOF\nhttp://releases.ubuntu.com/16.04/ubuntu-16.04-desktop-amd64.iso\nhttp://releases.ubuntu.com/16.04/ubuntu-16.04-server-amd64.iso\nhttp://cdimage.ubuntu.com/xubuntu/releases/16.04/release/xubuntu-16.04-desktop-amd64.iso\nhttp://cdimage.ubuntu.com/lubuntu/releases/16.04/release/lubuntu-16.04-desktop-amd64.iso\nhttp://cdimage.ubuntu.com/kubuntu/releases/16.04/release/kubuntu-16.04-desktop-amd64.iso\nhttp://cdimage.ubuntu.com/ubuntu-gnome/releases/16.04/release/ubuntu-gnome-16.04-desktop-amd64.iso\nhttp://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/ubuntu-mate-16.04-desktop-amd64.iso\nEOF\n\n\n\n\n\u57f7\u884c\n\n\n$ wget -i list.txt",
             "title": "basic"
         },
         {
@@ -154,6 +154,11 @@
             "location": "/content/usage/basic/#_3",
             "text": "\u57f7\u884c  $ wget -c https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb",
             "title": "\u652f\u63f4\u7e8c\u50b3"
+        },
+        {
+            "location": "/content/usage/basic/#_4",
+            "text": "\u7522\u751f\u4e00\u500b\u300clist.txt\u300d\uff0c\u5167\u5bb9\u662f\u653e\u7f6e\u8981\u4e0b\u8f09\u7684\u6a94\u6848\u5217\u8868\u3002  \u57f7\u884c  cat   list.txt  EOF\nhttp://releases.ubuntu.com/16.04/ubuntu-16.04-desktop-amd64.iso\nhttp://releases.ubuntu.com/16.04/ubuntu-16.04-server-amd64.iso\nhttp://cdimage.ubuntu.com/xubuntu/releases/16.04/release/xubuntu-16.04-desktop-amd64.iso\nhttp://cdimage.ubuntu.com/lubuntu/releases/16.04/release/lubuntu-16.04-desktop-amd64.iso\nhttp://cdimage.ubuntu.com/kubuntu/releases/16.04/release/kubuntu-16.04-desktop-amd64.iso\nhttp://cdimage.ubuntu.com/ubuntu-gnome/releases/16.04/release/ubuntu-gnome-16.04-desktop-amd64.iso\nhttp://cdimage.ubuntu.com/ubuntu-mate/releases/16.04/release/ubuntu-mate-16.04-desktop-amd64.iso\nEOF  \u57f7\u884c  $ wget -i list.txt",
+            "title": "\u5217\u8868\u4e0b\u8f09"
         }
     ]
 }
