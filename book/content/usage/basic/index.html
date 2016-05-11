@@ -241,20 +241,32 @@
         <ul>
           
             <li class="anchor">
-              <a title="更名" href="#_2">
+              <a title="基本用法" href="#_2">
+                基本用法
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="更名" href="#_3">
                 更名
               </a>
             </li>
           
             <li class="anchor">
-              <a title="支援續傳" href="#_3">
+              <a title="支援續傳" href="#_4">
                 支援續傳
               </a>
             </li>
           
             <li class="anchor">
-              <a title="列表下載" href="#_4">
+              <a title="列表下載" href="#_5">
                 列表下載
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="基本砍站" href="#_6">
+                基本砍站
               </a>
             </li>
           
@@ -292,22 +304,23 @@
       <article class="article">
         <div class="wrapper">
           
-          <h1 id="_1">基本用法</h1>
+          <h1 id="_1">基本用法範例</h1>
+<h2 id="_2">基本用法</h2>
 <p>執行</p>
 <pre class="code"><code class="language-sh">$ wget https://www.gnu.org/software/wget/</code></pre>
 
 
-<h2 id="_2">更名</h2>
+<h2 id="_3">更名</h2>
 <p>執行</p>
 <pre class="code"><code class="language-sh">$ wget https://www.gnu.org/software/wget/ -O test.html</code></pre>
 
 
-<h2 id="_3">支援續傳</h2>
+<h2 id="_4">支援續傳</h2>
 <p>執行</p>
 <pre class="code"><code class="language-sh">$ wget -c https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb</code></pre>
 
 
-<h2 id="_4">列表下載</h2>
+<h2 id="_5">列表下載</h2>
 <p>產生一個「list.txt」，內容是放置要下載的檔案列表。</p>
 <p>執行</p>
 <pre class="code"><code class="language-sh">cat &gt; list.txt &lt;&lt;EOF
@@ -323,6 +336,15 @@ EOF</code></pre>
 
 <p>執行</p>
 <pre class="code"><code class="language-sh">$ wget -i list.txt</code></pre>
+
+
+<h2 id="_6">基本砍站</h2>
+<p>執行</p>
+<pre class="code"><code class="language-sh">$ wget -c -k -r http://localhost</code></pre>
+
+
+<p>主要是「-r」這個參數「--recursive」，「-k」則是「--convert-links」，「-c」則是「--continue」。
+更多請參考「man <a href="http://manpages.ubuntu.com/manpages/xenial/en/man1/wget.1.html">wget</a>」</p>
           <aside class="copyright" role="note">
             
               Copyright (c) foreachsam &ndash;
